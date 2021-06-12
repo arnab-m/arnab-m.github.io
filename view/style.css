@@ -31,7 +31,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .icon.icon-email { background-position: 0px -96px; }
 
 .jumbotron {
-	background: no-repeat center right fixed url(images/background_2.JPG);
+	background: no-repeat center top fixed url(images/background_2.png);
 
 	-webkit-background-size: 100%; 
     -moz-background-size: 100%; 
@@ -43,8 +43,8 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	-o-background-size: cover;
 	background-size: cover;
 	
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background_2.JPG', sizingMethod='scale')";
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background_2.JPG', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background_2.png', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background_2.png', sizingMethod='scale');
 	
 	margin-bottom: 0px;
 	padding: 0px;
@@ -202,6 +202,9 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 
 /* #projects .row { margin: 0px; } // bootstrap 3.1- hack */
 #trainings .row > div { margin-bottom: 30px; }
+#trainings .row .reference { color: #07CB13; text-align: center;}
+#trainings .row .reference > a { color: #07CB13; display: inline-block; margin: 10px 10px 0 140px; padding: 5px 10px}
+#trainings .row .reference > a:hover { color: #428bca; }
 #trainings figure { position: relative; overflow: hidden; }
 #trainings figure h3 { color: #FFF; font-weight: 600; margin-bottom: 5px; }
 #trainings figure p > strong { width: 60px; display: inline-block; margin: 0px; }
